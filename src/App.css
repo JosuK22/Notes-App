@@ -1,0 +1,53 @@
+.App {
+  height: 100vh;
+  overflow:hidden ;
+}
+
+.container{
+  margin: 0;
+  display: flex;
+  height: 100%;
+}
+
+.left-wrapper{
+  width: 25%;
+  height: 100%;
+  background: rgb(212, 209, 209);
+}
+.right-wrapper{
+  width: 75%;
+  background: rgb(255, 255, 255);
+  height: 100%;
+  
+}
+.Header-wrapper{
+  height: 60px;
+  width: 100%;
+  margin-top: 0;
+  background: rgb(54, 54, 53);
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: lightgray;
+  transition: 300ms;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: gray;
+}
+
+@media (max-width: 780px){
+  .left-wrapper{
+    display: none;
+  }
+  .right-wrapper{
+    width: 100%;
+  }
+}

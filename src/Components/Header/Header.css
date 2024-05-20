@@ -1,0 +1,71 @@
+.Header-bar{
+    height: 4rem;
+    margin: 0;
+    width: 100%;
+}
+
+.Header-bar img{
+    height: 40px;
+    width: 40px;
+    right: 60px;
+    top :12px;
+    position: absolute;
+    cursor: pointer;
+    filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(322deg) brightness(112%) contrast(107%);
+}
+
+#logo{
+  font-size: 30px;
+  top : 12px;
+  left:8%;
+  position: absolute;
+  color: white;
+}
+
+.note-popup{    
+  position: fixed;
+  top: 120px;
+  right: -45px;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  z-index: 999;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 14px 16px rgba(0, 0, 0, 0.5), 0 11px 33px rgba(0, 0, 0, 0.1);     
+}
+
+.note-popup::before {
+    content: "";
+    position: absolute;
+    top: -13px;
+    right: 0px;
+    border-width: 0 0px 20px 50px;
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    
+}
+.note-color-options {
+    display: flex;
+    gap: 10px;
+    margin-left: 6px;
+  }
+  
+  .note-color-options :hover{
+    border: none;
+    
+  }
+  .note-color-option{
+    border: 3px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /* @media (max-width: 780px){
+    #logo{
+      left:5rem;
+    }
+  } */
