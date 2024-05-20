@@ -1,6 +1,6 @@
-# My React App
+# My React Notes App
 
-This is a description of my React app.
+Simple react app , helps to understand react , react hooks etc.
 
 ## Screenshot
 
