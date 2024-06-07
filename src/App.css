@@ -11,14 +11,11 @@
 
 .left-wrapper{
   width: 25%;
-  height: 100%;
   background: rgb(212, 209, 209);
 }
 .right-wrapper{
   width: 75%;
   background: rgb(245, 245, 245);
-  height: 100%;
-  
 }
 .Header-wrapper{
   height: 60px;

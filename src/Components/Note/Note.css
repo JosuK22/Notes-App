@@ -4,7 +4,6 @@
   width: 350px;
   display: flex;
   flex-direction: column;
-  background-color: blueviolet;
   border-radius: 30px;
 }
 
@@ -52,6 +51,12 @@
   .note{
     width : 260px;
     height: 280px;
-    margin-left: 42px;
+  }
+}
+
+@media(max-width:650px){
+  .note{
+    width: 70%;
+    height: 40%;
   }
 }

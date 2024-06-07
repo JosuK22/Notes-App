@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import NoteContainer from "./Components/NoteContainer/NoteContainer";
-import Sidebar from "./Components/Sidebar/Sidebar";
+import NoteContainer from "./Components/RightSection/NoteContainer";
+import Sidebar from "./Components/LeftSection/LeftSection";
 import HeaderBar from "./Components/Header/Header";
 
 import "./App.css";
